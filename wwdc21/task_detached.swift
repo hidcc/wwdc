@@ -1,4 +1,4 @@
-//task.detachedにすることでコンテキストが継承不要になり、完全に独立したものになる
+// Task.detachedにすることで親タスクのコンテキスト（actor, priority等）を継承せず、完全に独立したタスクとして実行される
 
 @MainActor
 class MyDelegate: UICollectionViewDelegate {
