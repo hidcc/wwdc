@@ -1,0 +1,16 @@
+name: SpacePhoto
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  SpacePhoto:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+      INFOPLIST_KEY_UILaunchScreen_Generation: YES
+      GENERATE_INFOPLIST_FILE: YES
+      SWIFT_VERSION: "5.9"
