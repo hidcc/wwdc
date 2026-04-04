@@ -1,4 +1,4 @@
-//Sendable と書くことで安全にコピーできるという証明になる
+//Sendable 行コンテキスト間で安全に渡せる
 
 struct Book: Sendable {
     var title: String

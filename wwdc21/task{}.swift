@@ -1,5 +1,5 @@
 // @MainActor　メインスレッド専用のactor
-// task{}　非構造化タスク
+// task{}　半構造化タスク
 
 @MainActor
 class MyDelegate: UICollectionViewDelegate {
